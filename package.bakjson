@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "node": "^17.4.0"
+  },
+  "name": "travel_planner",
+  "version": "1.0.0",
+  "description": "Travel planner project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo test",
+    "start": "node src/server/index.js",
+    "build-dev": "webpack-dev-server --config webpack.dev.js --open"
+  },
+  "author": "Mani",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "node-sass": "^7.0.1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^1.15.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}

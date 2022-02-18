@@ -1,0 +1,7 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Travel Planner</title><script defer="defer" src="main.js"></script><link href="main.css" rel="stylesheet"></head><body><section class="container"><header><h1>Travel Planner</h1></header><div class="box"><div class="inputDate"><label for="Destination">Destination<input name="destination" id="destination"></label> <label for="Start Date">Start Date <input type="date" name="startDate" id="startDate"></label> <label for="End Date">End Date <input type="date" name="endDate" id="endDate"></label> <button id="tripBtn">Add Trip</button></div></div><section class="output"></section></section><footer>CopyRight</footer><script>// Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }</script></body></html>
