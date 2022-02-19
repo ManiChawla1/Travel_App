@@ -1,3 +1,5 @@
+// this funnction validates whether destination or startdate or enddate is blank.
+
 export function inputValidation(destValue, startDatetValue , endDateValue){
 
     if(destValue == ''){

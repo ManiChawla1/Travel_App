@@ -6,11 +6,15 @@
 
 //https://pixabay.com/api/?key=25715536-1865ca738af5e5d0c230f1261&q=delhi&image_type=photo&pretty=true
 
+
+// importing the valdiation function
 import {inputValidation} from './validation';
 const tripBtn = document.getElementById('tripBtn');
 let count =0;
 
 tripBtn.addEventListener('click', addTrip)
+
+// This function is added on click event of Add Trip[ button and it creates a card of trhe trip with all the information fetched from API.
 
 export async function addTrip(){
 
