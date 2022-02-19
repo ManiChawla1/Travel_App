@@ -10,6 +10,10 @@ const port =9081;
 app.use(express.static('dist'));
 app.listen(port, listening);
 
-export function listening(){
+function listening(){
     console.log(`Running on port: ${port}`);
+}
+
+module.exports = {
+    listening
 }
